@@ -42,7 +42,6 @@ class StudentClassSerializer(serializers.ModelSerializer):
 
 
 class CreateClassSerializer(serializers.ModelSerializer):
-    teacher = UserSerializer()
 
     class Meta:
         model = Class
